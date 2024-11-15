@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 export default function Container({ children , className}) {
     return (
-      <div className={`container flex justify-center items-start w-10/12 h-full ${className}`}>
+      <div className={`flex flex-col justify-center items-center w-full h-full ${className}`}>
         {children}
       </div>
     );
